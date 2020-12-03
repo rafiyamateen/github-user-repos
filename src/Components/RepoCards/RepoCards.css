@@ -1,0 +1,22 @@
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px rgb(42, 35, 83) solid;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
